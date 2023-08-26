@@ -46,7 +46,7 @@ public class TV {
 		return control;
 	}
 	public static void setNumTV(int numTV) {
-		TV.numTV = numTV;
+		TV.numTV++;
 	}
 	public static int getNumTV() {
 		return numTV;
